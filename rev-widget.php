@@ -18,9 +18,7 @@ function review_buzz_widget ( $atts ) {
  color: #fff;
 }@media screen and (max-width:1023px) and (min-width:768px){.review-buzz-widget{top:222px;}}@media screen and (max-width:767px) {.review-buzz-widget{top:110px;}}</style>
 <div class="review-buzz-widget"><!--Begin REVIEWBUZZ widget--><script type="text/javascript" src="//www.reviewbuzz.com/app/public/js/widget.js?id='.$rev_id.'"></script>
- 	<div class="review-buzz-widget"><!--Begin REVIEWBUZZ widget--><script src="//www.reviewbuzz.com/app/public/js/widget.js?id='.$rev_id.'" type="text/javascript"></script>
 <noscript><a href="'.$rev_link.'" style="font-size:12px;"><img width="170" style="cursor: pointer" src="//www.reviewbuzz.com/app/public/images/popup-widget/reviewbuzz_widget_icon.png" alt=""><br>Customer Reviews </a></noscript><!--End REVIEWBUZZ widget--></div>
- 	<noscript><a href="'.$rev_link.'" style="font-size:12px;"><img width="170" style="cursor: pointer" src="//www.reviewbuzz.com/app/public/images/popup-widget/reviewbuzz_widget_icon.png" alt="ABC Chem-Dry - 76 Customer Reviews - Utica, NY">
 <script>function revResize() {
 var main_cont_position = jQuery("#main_container");
 var main_left = main_cont_position.position().left;
