@@ -33,7 +33,7 @@ window.onresize = revResize;
 jQuery(document).ready(function(){
 revResize ();
 });
-</script>'
+</script>';
 
 return $cont;
 }
